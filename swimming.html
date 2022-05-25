@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="rtl" lang="en">
 <head>
 
     <!-- Meta Tags -->
@@ -12,7 +12,6 @@
     <!-- Page Title -->
     <title>Home - Sports Life Academy</title>
 
-    <!-- Favicon and Touch Icons -->
     <link href="images/logo.png" rel="shortcut icon" type="image/png">
     <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
     <link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
@@ -36,12 +35,17 @@
     <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
     <!-- CSS | Responsive media queries -->
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
-
+    <!-- CSS | RTL Layout -->
+    <link href="css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style-main-rtl.css" rel="stylesheet" type="text/css">
+    <link href="css/style-main-rtl-extra.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="css/checkout.css">
     <!-- Revolution Slider 5.x CSS settings -->
     <link href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
     <link href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
     <link href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="css/product.css">
 
     <!-- external javascripts -->
     <script src="js/jquery-2.2.4.min.js"></script>
@@ -54,14 +58,19 @@
     <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
     <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&family=Cairo:wght@800&display=swap" rel="stylesheet">
+
 </head>
-<body class="">
+<body style="font-family: 'Amiri', serif;" class="rtl">
 <div id="wrapper">
     <!-- preloader -->
     <div id="preloader">
         <div id="spinner">
             <img src="images/preloaders/1.gif" alt="">
         </div>
+        <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
     </div>
 
     <!-- Header -->
@@ -102,22 +111,22 @@
                                     class="menuzord-brand stylish-header pull-left flip" href="javascript:void(0)"><img style="max-width: 91%;"
                                                                                                                         src="images/logo.png" alt=""></a>
                                 <ul class="menuzord-menu">
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li>
-                                        <a href="#">Sports</a>
+                                    <li ><a style="font-family: 'Amiri', serif;"  href="index.html">الرئيسيه</a></li>
+                                    <li  class="active">
+                                        <a style="font-family: 'Amiri', serif;"  href="#">الرياضات</a>
                                         <ul class="dropdown">
-                                            <li><a href="swimming.html">Swimming Club</a></li>
-                                            <li><a href="karate.html">Karate Club</a></li>
-                                            <li><a href="kikboxing.html">Kickboxing Club</a></li>
-                                            <li><a href="football.html">Football Club</a></li>
+                                            <li><a style="font-family: 'Amiri', serif;"  href="swimming.html">رياضه السباحه</a></li>
+                                            <li><a style="font-family: 'Amiri', serif;"  href="karate.html">رياضه الكاراتيه</a></li>
+                                            <li><a style="font-family: 'Amiri', serif;"  href="kikboxing.html">رياضه الكيك بوكسينج</a></li>
+                                            <li><a style="font-family: 'Amiri', serif;"  href="football.html">رياضه كره القدم</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="products.html">Store</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="register.html">Login</a></li>
-                                    <li><a href="checkout.html" id="cart"><i class="fa fa-shopping-cart"></i> Cart <span class="badge">3</span></a></li>
+                                    <li><a style="font-family: 'Amiri', serif;"  href="products.html">النتجات</a></li>
+                                    <li><a style="font-family: 'Amiri', serif;"  href="about.html">عن الأكاديميه</a></li>
+                                    <li><a style="font-family: 'Amiri', serif;"  href="gallery.html">البوم الصور</a></li>
+                                    <li><a style="font-family: 'Amiri', serif;"  href="contact.html">تواصل معنا</a></li>
+                                    <li><a style="font-family: 'Amiri', serif;"  href="register.html">تسجيل الدخول</a></li>
+                                    <li><a style="font-family: 'Amiri', serif;"  href="checkout.html" id="cart"><i class="fa fa-shopping-cart"></i> الشراء <span class="badge">3</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -137,8 +146,7 @@
                 <div class="section-content pt-100">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="title text-white">Swimming</h3>
-                            <p>Swimming is fun. We make it more fun.</p>
+                            <h3 style="font-family: 'Amiri', serif;" class="title text-white">السباحة</h3>
                         </div>
                     </div>
                 </div>
@@ -156,10 +164,9 @@
                                 <div class="thumb"><a href="#"><img class="img-fullwidth mb-20"
                                                                     src="images/swim1.jpg" alt="..."></a></div>
                                 <div class="caption">
-                                    <h4 class="text-uppercase letter-space-1">Riding on <span
-                                            class="text-theme-colored">Swimming</span></h4>
-                                    <p> Here at Sporting Life academy, we teach students how to swim independently and confidently. We teach essential life skills and water safety to children aged 4-14, adults, and parents.
-                                        Our class We recognize that every student is different and tailor our classes based on that. Our expert couches adapt each class for every student to ensure they get the most out of it. Our methods not only guarantee results, but they do it in a safe and fun manner.
+                                    <h4 style="font-family: 'Amiri', serif;" class="text-uppercase letter-space-1">انضم الي نادي <span
+                                            class="text-theme-colored">السباحه</span></h4>
+                                    <p style="font-family: 'Amiri', serif;"> ھنا في أكادیمیة "سبورتنج لایف" نعلم الطلاب كیفیة السباحة باستقلالیة وثقة. نقوم بتعلیم المھارات الحیاتیة الأساسیة وكیفیة أمانالمیاه للأطفال الذین تتراوح أعمارھم بین 4 و 14 عامًا والكبار والآباء.
                                     </p>
 
                                 </div>
@@ -168,17 +175,17 @@
                         <div class="col-sm-4">
                             <div class="class-item box-hover-effect effect1 mb-sm-30">
                                 <div class="caption">
-                                    <h4 class="text-uppercase letter-space-1">Start your <span
-                                            class="text-theme-colored">Swimming</span></h4>
-                                    <p>In our class, your child can be completely independent, for the first time. In the water, they can move freely, make mistakes, and learn to correct them. Swimming gives your children the unique opportunity to develop higher brain functions, core muscle strength, and to enhance their coordination faster than any other activity. </p>
+                                    <h4 style="font-family: 'Amiri', serif;" class="text-uppercase letter-space-1">ابداء مع <span
+                                            class="text-theme-colored">السباحه</span></h4>
+                                    <p style="font-family: 'Amiri', serif;">ندرك أن كل طالب مختلف ونصمم فصولنا بناءً على تلك الفروق الفردیة. حیث  یكیف المدربین الخبراء  كل فصل لكل طالب خصیصًالضمان تحقیق أقصى استفادة لھ،  فأسالیبنا لا تضمن النتائج فقط، بل إنھا تفعل ذلك بطریقة آمنة وممتعة.</p>
 
                                 </div>
                                 <div class="thumb"><a href="#"><img class="img-fullwidth mb-20" src="images/swim2.jpg" alt="..."></a></div>
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <h3 class="text-uppercase mt-0 letter-space-2">Events</h3>
-                            <h1 class="text-uppercase mt-0 letter-space-2" style="color: #F8bc18">Our classes are trustworthy!</h1>
+                            <h3 style="font-family: 'Amiri', serif;" class="text-uppercase mt-0 letter-space-2">الاحداث</h3>
+                            <h1 style="font-family: 'Amiri', serif;" class="text-uppercase mt-0 letter-space-2" style="color: #F8bc18">فصولنا جديرة بالثقة!</h1>
                     </div>
                 </div>
             </div>
@@ -191,10 +198,10 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="section-content text-center">
-                        <h3 class="text-white letter-space-1 font-32 text-uppercase">Our <span
-                                class="text-theme-colored">Swimming</span>   Programmers</h3>
-                        <h4 class="text-white font-24 font-weight-400">We run 2 core swimming programmers. Each is tailor-made to give your child confidence in the water and to teach them the technique to grow and become strong swimmers. Sporting Life Academy offers run2core swimming programs. Each program is customized for the student and aims to give them confidence in the water and teach them techniques to grow as both a person and swimmer.</h4>
-                        <a href="contact.html" class="btn btn-theme-colored mt-10 btn-md text-uppercase btn-flat"> Contact Us</a>
+                        <h3 style="font-family: 'Amiri', serif;" class="text-white letter-space-1 font-32 text-uppercase"> رامج<span
+                                class="text-theme-colored"> السباحة </span>  لدینا</h3>
+                        <h4 style="font-family: 'Amiri', serif;" class="text-white font-24 font-weight-400">نحن ندیر 2 من برامج السباحة الأساسیة. تم تصمیم كل منھم خصیصًا لمنح طفلك الثقة في الماء وتعلیمھ كي ینمو لیصبحسباحًا قویًا. كما تقدم الأكادیمیة برامج السباحةrun2core . ویھدف التخصیص لكل برنامج للطلاب إلى منحھم الثقة في الماءوتعلیمھم لیصیروا كالأشخاص البالغة وأیضًا كسباحین.</h4>
+                        <a style="font-family: 'Amiri', serif;" href="contact.html" class="btn btn-theme-colored mt-10 btn-md text-uppercase btn-flat"> تواصل معنا</a>
                     </div>
                 </div>
             </div>
@@ -210,24 +217,24 @@
                         <div class="icon-box text-center">
                             <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl"
                                href="#"> <i class="flaticon-sports-strength text-white"></i> </a>
-                            <h4 class="Personal trainer text-uppercase"><strong>Water Safty</strong></h4>
-                            <p>Our classes offer children the chance to learn the importance of water safety. These are invaluable skills to develop at such a young age and will instill a confidence that will last a lifetime.</p>
+                            <h4 style="font-family: 'Amiri', serif;" class="Personal trainer text-uppercase"><strong>أمن المیاه</strong></h4>
+                            <p style="font-family: 'Amiri', serif;">hتتیح صفوفنا للأطفال فرصة تعلم أھمیةسلامة وأمن المیاه. فھذه المھارات لا تقدربثمن، كما یجب تطویرھا في مثل ھذا السنالمبكر لغرس الثقة بالأطفال طوال حیاتھم.</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="icon-box text-center">
                             <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl"
                                href="#"> <i class="flaticon-sports-sports-6 text-white"></i> </a>
-                            <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Brought to you by the experts</strong></h4>
-                            <p>Our staff are skilled and equipped with the right mindset to make swimming a fun and fruitful hobby for your child. They focus on teaching the right techniques and instilling the habits of a  great swimmer!</p>
+                            <h4 style="font-family: 'Amiri', serif;" class="icon-box-title mt-15 mb-10 text-uppercase"><strong>یقدمھا لك الخبراء</strong></h4>
+                            <p style="font-family: 'Amiri', serif;">موظفونا الماھرون مجھزون بالعقلیةالصحیحة لجعل السباحة ممتعة وھوایةمثمرة لطفلك. یركزون على تعلیم التقنیاتالصحیحة وغرس عادات السباح العظیم.</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="icon-box text-center">
                             <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl"
                                href="#"> <i class="flaticon-sports-sport text-white"></i> </a>
-                            <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Helping you & your kids</strong></h4>
-                            <p>Not only teach you the technicalities of swimming but also give you a relaxing and healthy hobby.</p>
+                            <h4 style="font-family: 'Amiri', serif;" class="icon-box-title mt-15 mb-10 text-uppercase"><strong>لا یعلمك فقط</strong></h4>
+                            <p style="font-family: 'Amiri', serif;">لا یعلمك فقط تقنیات السباحة ولكنھ یمنحكأیضًا ھوایة مریحة وصحیة.</p>
                         </div>
                     </div>
                 </div>
@@ -240,63 +247,63 @@
             <div class="container">
                 <div class="section-content">
                     <div class="section-content text-center">
-                        <h3 class="text-white letter-space-1 font-32 text-uppercase"><span class="text-theme-colored">Swimming LEVELS</span></h3>
+                        <h3 style="font-family: 'Amiri', serif;" class="text-white letter-space-1 font-32 text-uppercase"><span class="text-theme-colored">مستویات السباحة</span></h3>
                     </div>
                     <div style="display: flex;justify-content: center" class="row multi-row-clearfix">
                         <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
                             <div class="icon-box text-center">
                                 <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl"
                                    href="#"> <i style="color: black !important;" class="flaticon- icon_ribbon_alt text-white"></i> </a>
-                                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Water discovery</strong></h4>
+                                <h4 style="font-family: 'Amiri', serif;" class="icon-box-title mt-15 mb-10 text-uppercase"><strong>بدایة السباحة</strong></h4>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
                             <div class="icon-box text-center">
                                 <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl"
                                    href="#"> <i style="color: black !important;" class="flaticon- icon_ribbon_alt text-white"></i> </a>
-                                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Water exploration</strong></h4>
+                                <h4 style="font-family: 'Amiri', serif;" class="icon-box-title mt-15 mb-10 text-uppercase"><strong>أساسیات السباحة</strong></h4>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
                             <div class="icon-box text-center">
                                 <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl"
                                    href="#"> <i style="color: black !important;" class="flaticon- icon_ribbon_alt text-white"></i> </a>
-                                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Water acclimation</strong></h4>
+                                <h4 style="font-family: 'Amiri', serif;" class="icon-box-title mt-15 mb-10 text-uppercase"><strong>ضربات السباحة</strong></h4>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
                             <div class="icon-box text-center">
                                 <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl"
                                    href="#"> <i style="color: black !important;" class="flaticon- icon_ribbon_alt text-white"></i> </a>
-                                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Water movement</strong></h4>
+                                <h4 style="font-family: 'Amiri', serif;"  class="icon-box-title mt-15 mb-10 text-uppercase"><strong>اكتشاف المیاه</strong></h4>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
                             <div class="icon-box text-center">
                                 <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl"
                                    href="#"> <i style="color: black !important;" class="flaticon- icon_ribbon_alt text-white"></i> </a>
-                                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Water stamina</strong></h4>
+                                <h4 style="font-family: 'Amiri', serif;" class="icon-box-title mt-15 mb-10 text-uppercase"><strong>التأقلم في المیاه</strong></h4>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
                             <div class="icon-box text-center">
                                 <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl"
                                    href="#"> <i style="color: black !important;" class="flaticon- icon_ribbon_alt text-white"></i> </a>
-                                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Stroke introduction</strong></h4>
+                                <h4 style="font-family: 'Amiri', serif;" class="icon-box-title mt-15 mb-10 text-uppercase"><strong>مقدمة عن أنواع ضربات السباحة</strong></h4>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
                             <div class="icon-box text-center">
                                 <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl"
                                    href="#"> <i style="color: black !important;" class="flaticon- icon_ribbon_alt text-white"></i> </a>
-                                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Stoke development</strong></h4>
+                                <h4 style="font-family: 'Amiri', serif;" class="icon-box-title mt-15 mb-10 text-uppercase"><strong>التجول في المیاه</strong></h4>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
                             <div class="icon-box text-center">
                                 <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl"
                                    href="#"> <i style="color: black !important;" class="flaticon- icon_ribbon_alt text-white"></i> </a>
-                                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Stroke Mechanics</strong></h4>
+                                <h4 style="font-family: 'Amiri', serif;" class="icon-box-title mt-15 mb-10 text-uppercase"><strong>الحركة في المیاه</strong></h4>
                             </div>
                         </div>
                     </div>
