@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="rtl" lang="en">
 <head>
 
     <!-- Meta Tags -->
@@ -12,7 +12,6 @@
     <!-- Page Title -->
     <title>Home - Sports Life Academy</title>
 
-    <!-- Favicon and Touch Icons -->
     <link href="images/logo.png" rel="shortcut icon" type="image/png">
     <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
     <link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
@@ -36,6 +35,12 @@
     <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
     <!-- CSS | Responsive media queries -->
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    <!-- CSS | RTL Layout -->
+    <link href="css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style-main-rtl.css" rel="stylesheet" type="text/css">
+    <link href="css/style-main-rtl-extra.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
 
     <!-- Revolution Slider 5.x CSS settings -->
     <link href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
@@ -54,14 +59,19 @@
     <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
     <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&family=Cairo:wght@800&display=swap" rel="stylesheet">
+
 </head>
-<body class="">
+<body style="font-family: 'Amiri', serif;" class="rtl">
 <div id="wrapper">
     <!-- preloader -->
     <div id="preloader">
         <div id="spinner">
             <img src="images/preloaders/1.gif" alt="">
         </div>
+        <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
     </div>
 
     <!-- Header -->
@@ -102,22 +112,22 @@
                                     class="menuzord-brand stylish-header pull-left flip" href="javascript:void(0)"><img style="max-width: 91%;"
                                                                                                                         src="images/logo.png" alt=""></a>
                                 <ul class="menuzord-menu">
-                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li ><a style="font-family: 'Amiri', serif;"  href="index.html">الرئيسيه</a></li>
                                     <li>
-                                        <a href="#">Sports</a>
+                                        <a style="font-family: 'Amiri', serif;"  href="#">الرياضات</a>
                                         <ul class="dropdown">
-                                            <li><a href="swimming.html">Swimming Club</a></li>
-                                            <li><a href="karate.html">Karate Club</a></li>
-                                            <li><a href="kikboxing.html">Kickboxing Club</a></li>
-                                            <li><a href="football.html">Football Club</a></li>
+                                            <li><a style="font-family: 'Amiri', serif;"  href="swimming.html">رياضه السباحه</a></li>
+                                            <li><a style="font-family: 'Amiri', serif;"  href="karate.html">رياضه الكاراتيه</a></li>
+                                            <li><a style="font-family: 'Amiri', serif;"  href="kikboxing.html">رياضه الكيك بوكسينج</a></li>
+                                            <li><a style="font-family: 'Amiri', serif;"  href="football.html">رياضه كره القدم</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="products.html">Store</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="register.html">Login</a></li>
-                                    <li><a href="checkout.html" id="cart"><i class="fa fa-shopping-cart"></i> Cart <span class="badge">3</span></a></li>
+                                    <li  class="active"><a style="font-family: 'Amiri', serif;"  href="products.html">النتجات</a></li>
+                                    <li><a style="font-family: 'Amiri', serif;"  href="about.html">عن الأكاديميه</a></li>
+                                    <li><a style="font-family: 'Amiri', serif;"  href="gallery.html">البوم الصور</a></li>
+                                    <li><a style="font-family: 'Amiri', serif;"  href="contact.html">تواصل معنا</a></li>
+                                    <li><a style="font-family: 'Amiri', serif;"  href="register.html">تسجيل الدخول</a></li>
+                                    <li><a style="font-family: 'Amiri', serif;"  href="checkout.html" id="cart"><i class="fa fa-shopping-cart"></i> الشراء <span class="badge">3</span></a></li>
                                 </ul>
                             </div>
                         </div>
