@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="rtl" lang="en">
 <head>
 
   <!-- Meta Tags -->
@@ -12,7 +12,6 @@
   <!-- Page Title -->
   <title>Home - Sports Life Academy</title>
 
-  <!-- Favicon and Touch Icons -->
   <link href="images/logo.png" rel="shortcut icon" type="image/png">
   <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
@@ -36,12 +35,18 @@
   <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
   <!-- CSS | Responsive media queries -->
   <link href="css/responsive.css" rel="stylesheet" type="text/css">
+  <!-- CSS | RTL Layout -->
+  <link href="css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style-main-rtl.css" rel="stylesheet" type="text/css">
+  <link href="css/style-main-rtl-extra.css" rel="stylesheet" type="text/css">
+  <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+  <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" href="css/checkout.css">
 
   <!-- Revolution Slider 5.x CSS settings -->
   <link href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
   <link href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
   <link href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
-  <link rel="stylesheet" href="css/checkout.css">
 
   <!-- external javascripts -->
   <script src="js/jquery-2.2.4.min.js"></script>
@@ -54,14 +59,19 @@
   <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
   <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&family=Cairo:wght@800&display=swap" rel="stylesheet">
+
 </head>
-<body class="">
+<body style="font-family: 'Amiri', serif;" class="rtl">
 <div id="wrapper">
   <!-- preloader -->
   <div id="preloader">
     <div id="spinner">
       <img src="images/preloaders/1.gif" alt="">
     </div>
+    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
   </div>
 
   <!-- Header -->
@@ -102,22 +112,22 @@
                       class="menuzord-brand stylish-header pull-left flip" href="javascript:void(0)"><img style="max-width: 91%;"
                                                                                                           src="images/logo.png" alt=""></a>
                 <ul class="menuzord-menu">
-                  <li class="active"><a href="index.html">Home</a></li>
+                  <li ><a style="font-family: 'Amiri', serif;"  href="index.html">الرئيسيه</a></li>
                   <li>
-                    <a href="#">Sports</a>
+                    <a style="font-family: 'Amiri', serif;"  href="#">الرياضات</a>
                     <ul class="dropdown">
-                      <li><a href="swimming.html">Swimming Club</a></li>
-                      <li><a href="karate.html">Karate Club</a></li>
-                      <li><a href="kikboxing.html">Kickboxing Club</a></li>
-                      <li><a href="football.html">Football Club</a></li>
+                      <li><a style="font-family: 'Amiri', serif;"  href="swimming.html">رياضه السباحه</a></li>
+                      <li><a style="font-family: 'Amiri', serif;"  href="karate.html">رياضه الكاراتيه</a></li>
+                      <li><a style="font-family: 'Amiri', serif;"  href="kikboxing.html">رياضه الكيك بوكسينج</a></li>
+                      <li><a style="font-family: 'Amiri', serif;"  href="football.html">رياضه كره القدم</a></li>
                     </ul>
                   </li>
-                  <li><a href="products.html">Store</a></li>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
-                  <li><a href="register.html">Login</a></li>
-                  <li><a href="checkout.html" id="cart"><i class="fa fa-shopping-cart"></i> Cart <span class="badge">3</span></a></li>
+                  <li><a style="font-family: 'Amiri', serif;"  href="products.html">النتجات</a></li>
+                  <li><a style="font-family: 'Amiri', serif;"  href="about.html">عن الأكاديميه</a></li>
+                  <li><a style="font-family: 'Amiri', serif;"  href="gallery.html">البوم الصور</a></li>
+                  <li><a style="font-family: 'Amiri', serif;"  href="contact.html">تواصل معنا</a></li>
+                  <li><a style="font-family: 'Amiri', serif;"  href="register.html">تسجيل الدخول</a></li>
+                  <li class="active"><a style="font-family: 'Amiri', serif;"  href="checkout.html" id="cart"><i class="fa fa-shopping-cart"></i> الشراء <span class="badge">3</span></a></li>
                 </ul>
               </div>
             </div>
@@ -127,7 +137,6 @@
     </div>
   </header>
 
-  <!-- Start main-content -->
   <div class="main-content">
 
     <!-- Section: inner-header -->
@@ -137,8 +146,8 @@
         <div class="section-content pt-100">
           <div class="row">
             <div class="col-md-12">
-              <h3 class="title text-white">
-                Checkout</h3>
+              <h3 style="font-family: 'Amiri', serif;" class="title text-white">
+                عمليه الدفع</h3>
             </div>
           </div>
         </div>
@@ -153,10 +162,10 @@
             <table class="table">
               <thead style="background-color: black" class="thead-dark">
               <tr>
-                <th scope="col" class="text-white">Product</th>
-                <th scope="col" class="text-white">Price</th>
-                <th scope="col" class="text-white">Quantity</th>
-                <th scope="col" class="text-white">Total</th>
+                <th style="font-family: 'Amiri', serif;"scope="col" class="text-white">المنتج</th>
+                <th style="font-family: 'Amiri', serif;" scope="col" class="text-white">السعر</th>
+                <th style="font-family: 'Amiri', serif;" scope="col" class="text-white">العدد</th>
+                <th style="font-family: 'Amiri', serif;" scope="col" class="text-white">الاجمالي</th>
               </tr>
               </thead>
               <tbody>
@@ -251,13 +260,10 @@
       <div class="container">
         <div class="checkout">
           <ul>
-            <li class="subtotal">subtotal
-              <span>$60.00</span>
-            </li>
-            <li class="cart-total">Total
-              <span>$60.00</span></li>
+            <li  style="font-family: 'Amiri', serif;" class="cart-total">الاجمالي
+              <span> $60.00 </span></li>
           </ul>
-          <a href="#"class="proceed-btn" data-toggle="modal" data-target="#staticBackdrop">Proceed to Checkout</a>
+          <a href="#"class="proceed-btn" data-toggle="modal" data-target="#staticBackdrop">الدفع الان</a>
         </div>
       </div>
     </div>
@@ -296,7 +302,7 @@
   <!-- end main-content -->
 
   <!-- Footer -->
-  <!-- Footer -->
+  <<!-- Footer -->
   <footer class="footer divider layer-overlay overlay-dark" data-bg-img="images/bg/bg6.jpg">
     <div class="container pt-100 pb-30">
       <div class="row mb-50">
@@ -304,25 +310,25 @@
           <div class="contact-icon-box p-30">
             <div class="contact-icon bg-theme-colored"><i class="fa fa-map-marker text-white font-22"></i>
             </div>
-            <h4 class="text-uppercase text-white">Address</h4>
-            <p class="font-16">Saad Abdullah - Kuwait Bilingual School KBS, next to Jahra Governorate </p>
+            <h4 class="text-uppercase text-white">العنوان</h4>
+            <p class="font-16">مبنى مدرسةKBS  - سعد العبدﷲ - الجھراء</p>
           </div>
         </div>
         <div class="col-sm-4 col-md-4 mb-sm-60">
           <div class="contact-icon-box p-30">
             <div class="contact-icon bg-theme-colored"><i class="fa fa-envelope-o text-white font-22"></i>
             </div>
-            <h4 class="text-uppercase text-white">mail us</h4>
-            <p class="font-16">Get support via <br>
-              <a class="" href="mailto: info@sportinglifeacademy.com" target="_top">email :
-                info@sportinglifeacademy.com </a></p>
+            <h4 class="text-uppercase text-white">الايميل</h4>
+            <p class="font-16">تواصل معنا من خلال <br>
+              <a class="" href="mailto: info@sportinglifeacademy.com " target="_top">email :
+                info@sportinglifeacademy.com  </a></p>
           </div>
         </div>
         <div class="col-sm-4 col-md-4">
           <div class="contact-icon-box p-30">
             <div class="contact-icon bg-theme-colored"><i class="fa fa-phone text-white font-22"></i></div>
-            <h4 class="text-uppercase text-white">PHONE / FAX</h4>
-            <p class="font-16">50856020 <br>
+            <h4 class="text-uppercase text-white">الهاتف</h4>
+            <p class="font-16">+50856020  <br>
               99416846</p>
           </div>
         </div>
@@ -330,7 +336,7 @@
       <div class="row">
         <div class="col-sm-6 col-md-3">
           <div class="widget dark"><img class="mt-10 mb-20" alt="" src="images/logo.png">
-            <p class="font-12">We are a creative and dynamic academy providing high-caliber sports camps and after-school activities for kids, teenagers, parents..</p>
+            <p class="font-12">نحن أكاديمية إبداعية وديناميكية نقدم معسكرات رياضية عالية المستوى وأنشطة ما بعد المدرسة للأطفال والمراهقين وأولياء الأمور ..</p>
             <ul class="styled-icons icon-bordered small square list-inline mt-10">
               <li><a href="https://instagram.com/sporting_academyq8?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram text-white"></i></a></li>
             </ul>
@@ -338,42 +344,42 @@
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="widget dark">
-            <h5 class="widget-title line-bottom">Pages</h5>
+            <h5 class="widget-title line-bottom">الصفحات</h5>
             <ul class="list angle-double-right list-border">
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="contact.html">Contact us</a></li>
-              <li><a href="products.html">Store</a></li>
-              <li><a href="swimming.html">Sports</a></li>
-              <li><a href="register.html">login</a></li>
+              <li><a href="about.html">عن الأكاديميه</a></li>
+              <li><a href="contact.html">تواصل معنا</a></li>
+              <li><a href="products.html">المنتجات</a></li>
+              <li><a href="swimming.html">الرياضات</a></li>
+              <li><a href="register.html">تسجيل الدخول</a></li>
             </ul>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="widget dark">
-            <h5 class="widget-title line-bottom">Sports</h5>
+            <h5 class="widget-title line-bottom">الرياضات</h5>
             <ul class="list angle-double-right list-border">
-              <li><a href="swimming.html">Swimming Club</a></li>
-              <li><a href="karate.html">Karate Club</a></li>
-              <li><a href="kikboxing.html">Kickboxing Club</a></li>
-              <li><a href="football.html">Football Club</a></li>
+              <li><a href="swimming.html">رياضه السباحه</a></li>
+              <li><a href="karate.html">رياضه الكاراتيه</a></li>
+              <li><a href="kikboxing.html">رياضه الكيك بوكسينج</a></li>
+              <li><a href="football.html">رياضه كرخه القدم</a></li>
             </ul>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="widget dark">
-            <h5 class="widget-title line-bottom">Opening Hours</h5>
+            <h5 class="widget-title line-bottom">ساعات العمل</h5>
             <ul class="opening-hours list-border">
               <li>
-                <p><span class="text-white">Saturday to Thursday:</span> <br>
-                  3:00 pm to 9:00 pm</p>
+                <p><span class="text-white">السبت الي الثلاثاء:</span> <br>
+                  من 3 الي 9 مساءا</p>
               </li>
               <li>
-                <p><span class="text-white">Sat- Mon- Wed Girls and Ladies :</span> <br>
-                  3:00 pm to 6:00 pm</p>
+                <p><span class="text-white">لفتیات والسیدات: (السبت - الإثنین - الأربعاء )</span> <br>
+                  من 3 إلى 6 مساءً</p>
               </li>
               <li>
-                <p><span class="text-white">Sun-Tue-Thur boys and man :</span> <br>
-                  3:00 pm to 9:00 pm</p>
+                <p><span class="text-white">للأولاد والرجال: (الأحد - الثلاثاء - الخمیس )</span> <br>
+                  من 3 إلى 9 مساءً</p>
               </li>
             </ul>
           </div>
@@ -396,15 +402,16 @@
 <script src="js/calendar-events-data.js"></script>
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
-
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript"
+        src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
 </body>
+
 </html>
